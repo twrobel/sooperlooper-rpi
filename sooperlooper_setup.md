@@ -14,6 +14,7 @@ system:playback_1
 system:playback_2
 
 Connect things
+jack_connect system:capture_1 system:playback_1 & \
 jack_connect system:capture_1 system:playback_2 & \
 jack_connect system:capture_1 sooperlooper:common_in_1 & \
 jack_connect system:capture_1 sooperlooper:common_in_2 & \
